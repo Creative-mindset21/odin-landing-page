@@ -211,7 +211,7 @@ header nav ul li:hover::before {
   justify-content: center;
   gap: 25px;
   background-color: #3882f6;
-  padding: 20px 40px;
+  padding: 25px 70px;
   border-radius: 5px;
   color: #f9faf8;
 }
@@ -250,4 +250,12 @@ header nav ul li:hover::before {
 .btn1:hover::before {
   width: 350px;
   height: 350px;
+}
+
+/* ! FOOTER SECTION */
+footer {
+  padding: 20px 40px;
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
 }
