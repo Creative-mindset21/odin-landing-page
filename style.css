@@ -174,3 +174,24 @@ header nav ul li:hover::before {
 .box p {
   max-width: 200px;
 }
+
+/* ! QUOTES SECTION CSS */
+.quotes {
+  background: #e5e7eb;
+  padding: 50px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote p {
+  max-width: 900px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote h3 {
+  text-align: right;
+}
