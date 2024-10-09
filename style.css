@@ -11,7 +11,7 @@
 }
 
 .container {
-  padding: 1rem 10rem;
+  padding: 1rem 20rem;
 }
 
 /* ! HEADER SECTION CSS */
@@ -58,4 +58,69 @@ header nav ul li::before {
 
 header nav ul li:hover::before {
   transform: scale(1);
+}
+
+/* ! HERO SECTION CSS */
+.hero {
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+  background-color: #1f2937;
+}
+
+.hero-text {
+  flex-basis: 70%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  max-width: 500px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #3882f6;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn::before {
+  width: 0;
+  height: 0;
+  background-color: orangered;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: height 0.3s ease, width 0.3s ease;
+}
+
+.btn:hover::before {
+  width: 350px;
+  height: 350px;
+}
+
+.hero-image {
+  flex-basis: 40%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
 }
