@@ -225,4 +225,29 @@ header nav ul li:hover::before {
   color: #fff;
   border-radius: 15px;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn1 span {
+  z-index: 1;
+  position: relative;
+}
+
+.btn1::before {
+  content: "";
+  position: absolute;
+  top: var(--bPos);
+  left: var(--aPos);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  background-color: #064ab8;
+  border-radius: 50%;
+  transition: height 0.4s ease, width 0.4s ease;
+}
+
+.btn1:hover::before {
+  width: 350px;
+  height: 350px;
 }
