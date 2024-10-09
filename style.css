@@ -97,15 +97,19 @@ header nav ul li:hover::before {
   overflow: hidden;
   display: inline-block;
 }
+.btn span {
+  z-index: 1;
+  position: relative;
+}
 
 .btn::before {
   width: 0;
   height: 0;
-  background-color: orangered;
+  background-color: #1161e0;
   position: absolute;
   content: "";
-  top: 50%;
-  left: 50%;
+  top: var(--yPos);
+  left: var(--xPos);
   transform: translate(-50%, -50%);
   border-radius: 50%;
   transition: height 0.3s ease, width 0.3s ease;
