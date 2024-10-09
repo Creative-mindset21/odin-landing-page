@@ -19,14 +19,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   background-color: #1f2937;
   width: 100%;
-  color: #fff;
 }
 
 .logo {
   cursor: pointer;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 header nav ul {
@@ -41,7 +41,8 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 header nav ul li::before {
