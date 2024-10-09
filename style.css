@@ -195,3 +195,34 @@ header nav ul li:hover::before {
 .quote h3 {
   text-align: right;
 }
+
+/* ! CTA SECTION CSS */
+.cta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 10rem;
+}
+
+.cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background-color: #3882f6;
+  padding: 20px 40px;
+  border-radius: 5px;
+  color: #f9faf8;
+}
+
+.btn1 {
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  background: none;
+  border: 1px solid #e5e7eb;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
